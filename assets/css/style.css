@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+
+:root{
+    --black-color: #000000;
+    --black_two-color: #272525;
+    --black_tree-color: #434040;
+    --red-color: #E51A4B;
+    --red_two-color: #F53B68;
+    --red_three-color: #D31A47;
+    --white-color: #F8F6F5;
+    --white_dew-color: #F7F7F9;
+    --grey-color: #D8D8D8;
+    --brown-color: #605652;
+    --brown_two-color: #D3CFCD;
+    --violet-color: #717FFF;
+    --violet_two-color: #8D97F0;
+    --light_violet-color: #E8E7F9;
+    --dark_blue-color: #0A014F;
+    --green-color: #393200;
+}
+
+.bottom__line{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--red-color);
+}
+
+section{
+    padding: 0 10px;
+}
+
+.container{
+    max-width: 1290px !important;
+}
+
+*{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: var(--black-color);
+}
+
+.logo{
+    max-width: 53px !important;
+    max-height: 53px !important;
+    width: 100%;
+}
+
+.header__container{
+    padding-top: 16px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.contact__btn a{
+    display: block;
+    padding: 16px 50px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 35px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}.contact__btn a:hover{
+    color: var(--white-color);
+ }
+
+.main__navigation li{
+    list-style: none;
+}
+.main__navigation li a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black-color);
+    margin: 5px 25px;
+
+    text-decoration: none;
+}.main__navigation li a:hover{
+    border-bottom: 1px solid var(--black-color);
+ }
